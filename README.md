@@ -2,7 +2,7 @@
 
 Edits for websites, to improve your experience!
 
-This repository **DOESN'T** contain any automations! (including, but not limited to, the use of JavaScript) All modifications are purely visual!
+This repository **DOESN'T** contain any automations for the websites! (including, but not limited to, the use of JavaScript) All modifications are purely visual!
 
 ## Browser extensions
 
