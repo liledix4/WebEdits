@@ -2,7 +2,7 @@
 
 Edits for websites, to improve your experience!
 
-This repository **DOESN'T** contain any automations for the websites! (including, but not limited to, the use of JavaScript) All modifications are purely visual!
+All modifications are purely visual! **This is not hacking!** This repository contains **NOTHING** that can automate anything on the websites or change their behavior! JavaScript and any other types of automations are NOT used in the browser. There are NO external connections used – except the usage of `npm install` for installing Node.js packages on the local machine, **which you don't have to do**.
 
 ## Helpful software
 
