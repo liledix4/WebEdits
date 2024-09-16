@@ -1,0 +1,13 @@
+{
+    "name": "@liledix4/webedits",
+    "version": "2024.9.16",
+    "description": "Edits for websites, to improve your experience!",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "liledix4",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@webextensions/live-css": "^8.0.3"
+    }
+}

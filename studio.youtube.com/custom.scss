@@ -1,15 +1,89 @@
-.page-title-container {
-    max-width: unset !important;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 10px 0;
-    .page-title {
-        padding: unset !important;
-        line-height: unset !important;
+ytcp-header.style-scope {
+    box-shadow: unset;
+    > header.ytcp-header {
+        padding: 5px 10px;
+        align-items: center;
+        gap: 10px;
+        > ytcp-icon-button {
+            margin: unset !important;
+            padding: unset !important;
+        }
+        > ytcp-home-button {
+            margin: unset;
+            padding: unset;
+        }
+        > ytcp-omnisearch {
+            position: unset;
+            width: 100%;
+            min-width: unset;
+            max-width: unset;
+            padding: unset;
+            margin: unset;
+        }
+        #search-icon,
+        #help-widget{
+            display: none;
+        }
     }
-    #dashboard-actions.ytcp-app {
-        position: unset;
-        margin: unset;
+}
+.nav-and-main-content {
+    > ytcp-navigation-drawer > #left-nav {
+        border: unset;
+        .thumbnail-wrapper.ytcp-navigation-drawer {
+            height: unset;
+            flex: unset;
+            overflow: unset;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px 0;
+            .image-thumbnail.thumbnail-overlay {
+                top: unset;
+            }
+            .image-thumbnail:not(.thumbnail-overlay) {
+                position: unset;
+            }
+            #entity-label-container {
+                position: unset;
+                padding: unset;
+                #entity-type {display: none;}
+                #entity-name {
+                    margin-top: 5px;
+                    font-size: 1.5em;
+                    color: inherit;
+                }
+            }
+        }
+        ul#main-menu {
+            li tp-yt-paper-icon-item {
+                line-height: unset;
+                min-height: unset;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+        #bottom-section {
+            ytcp-send-feedback-button {
+                display: none;
+            }
+        }
+    }
+    > main {
+        .page-title-container {
+            display: none !important;
+            max-width: unset !important;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 10px 0;
+            .page-title {
+                padding: unset !important;
+                line-height: unset !important;
+            }
+            #dashboard-actions.ytcp-app {
+                position: unset;
+                margin: unset;
+            }
+        }
     }
 }
 [name="channel"] {
