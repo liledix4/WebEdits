@@ -4,13 +4,17 @@ Edits for websites, to improve your experience!
 
 This repository **DOESN'T** contain any automations for the websites! (including, but not limited to, the use of JavaScript) All modifications are purely visual!
 
-## Browser extensions
+## Helpful software
+
+### Browser extensions
 
 - [Live editor for CSS, Less & Sass (Magic CSS)](https://github.com/webextensions/live-css-editor)
 
-## Installation?
+## Installation? & usage
 
-If you clone this repository to any folder of your choice and then run `install.bat` file, Node.js packages will be downloaded:
+**You don't have to install anything.** It's enough to find the files you need and copy their contents into the above-mentioned tools.
+
+However, if you have Node.js installed on your machine – you can clone this repository to any folder of your choice, and then run `install.bat` file. In this case, these Node.js packages will be downloaded:
 
 - [`@webextensions/live-css`](https://www.npmjs.com/package/@webextensions/live-css) – runs the server for Live CSS Editor extension, it allows to interact with local CSS/SCSS/Less files in the browser.
     - Ad blockers may block the extension, so you need to whitelist the website or turn off the ad blockers completely.
