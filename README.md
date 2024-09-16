@@ -1,6 +1,6 @@
 # WebEdits
 
-Edits for websites, to improve your experience!
+Edits for websites, to improve your online experience!
 
 > [!WARNING]
 > All modifications are purely visual! **This is not hacking!**
