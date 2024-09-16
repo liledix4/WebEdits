@@ -1,0 +1,279 @@
+.page-title-container {
+    max-width: unset !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 0;
+    .page-title {
+        padding: unset !important;
+        line-height: unset !important;
+    }
+    #dashboard-actions.ytcp-app {
+        position: unset;
+        margin: unset;
+    }
+}
+[name="channel"] {
+    ytcd-card-column.ytcd-channel-dashboard.style-scope.column:nth-of-type(3) {
+        display: none;
+    }
+    .column.ytcd-channel-dashboard {
+        margin-left: unset;
+        width: 100%;
+        max-width: 50%;
+        flex: unset;
+    }
+    #metrics-table.yta-entity-snapshot {
+        flex-direction: row;
+    }
+    .table-row.yta-entity-snapshot {
+        flex-direction: column;
+        width: 100%;
+    }
+    .metric-value-cell.yta-entity-snapshot {
+        justify-content: unset;
+        padding-left: unset;
+    }
+    .metric-name.yta-entity-snapshot,
+    .table-value.yta-entity-snapshot {
+        padding: unset;
+    }
+    .table-icon.yta-entity-snapshot {
+        height: unset;
+    }
+    #ranking-icon.yta-entity-snapshot {
+        padding: unset;
+    }
+    .divider.ytcd-entity-snapshot-item {
+        display: none;
+    }
+    #video-snapshot {
+        > .title {
+            display: none;
+        }
+        ytcp-thumbnail-with-title {
+            padding-top: unset;
+            align-items: center;
+            gap: 10px;
+            img.ratio-4to3-adjust {
+                position: unset;
+                width: 256px;
+                height: 144px;
+                object-fit: cover;
+                border-radius: 10px;
+                top: unset;
+            }
+            .title-container {
+                background: unset;
+                text-align: center;
+                position: unset;
+                height: unset;
+                .text-container {
+                    position: unset;
+                    #title {
+                        display: inline;
+                        line-height: unset;
+                        padding: unset;
+                    }
+                }
+            }
+        }
+    }
+    .column.ytcd-channel-dashboard {
+        width: unset !important;
+    }
+    ytcd-entity-snapshot-item[modern] #link-button-container.ytcd-entity-snapshot-item {
+        display: flex;
+        gap: 10px;
+    }
+    .cards.ytcd-channel-dashboard {
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .main.ytcd-channel-dashboard {
+        padding: 10px;
+        min-width: unset;
+    }
+    ytcd-card[modern] .card.ytcd-card {
+        padding: 20px;
+    }
+    .title.ytcd-entity-snapshot-item,
+    .thumbnail-container.ytcd-entity-snapshot-item,
+    ytcd-entity-snapshot-item[modern] .button-horizontal-padding.ytcd-entity-snapshot-item,
+    #analytics-section.ytcd-entity-snapshot-item,
+    ytcd-list-card[modern] .card-title.ytcd-list-card,
+    .apply-card-padding,
+    .apply-item-padding,
+    ytcd-comments-snapshot-item,
+    ytcd-post-cta-item[modern] a.ytcd-post-cta-item,
+    ytcd-channel-facts-item[modern] .analytics-button.ytcd-channel-facts-item,
+    ytcd-card-button-action-item[modern],
+    ytcp-static-chip-bar.ytcd-recent-activity-item,
+    .action-link
+    {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+    .chip-bar.ytcp-static-chip-bar {
+        gap: 10px;
+    }
+    li.ytcd-recent-activity-subscribers,
+    li.ytcd-recent-activity-sponsors,
+    .subscriber-row,
+    .sponsor-row,
+    .ytcd-channel-facts-item,
+    ytcd-comments-snapshot-item
+    {
+        padding-top: unset !important;
+        padding-bottom: unset !important;
+    }
+    ytcd-list-card[modern] li.ytcd-list-card:not(:last-of-type),
+    .divider.ytcd-list-card
+    {
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+    .metric-row.ytcd-channel-facts-item {
+        height: unset;
+    }
+    .metric-trend.ytcd-channel-facts-item {
+        min-height: unset;
+    }
+    ul.ytcd-recent-activity-sponsors,
+    ul.ytcd-recent-activity-subscribers {
+        display: flex;
+        padding-top: 10px;
+        li.ytcd-recent-activity-sponsors,
+        li.ytcd-recent-activity-subscribers {
+            width: 100%;
+            .sponsor-row,
+            .subscriber-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+                .subscriber-avatar {
+                    margin: unset;
+                }
+                .subscriber-info {
+                    width: unset;
+                }
+            }
+        }
+    }
+    ytcp-chip.ytcp-static-chip-bar {
+        margin: unset
+    }
+    ytcd-list-card[modern] .card-title.ytcd-list-card
+    {
+        padding-bottom: 10px;
+    }
+    .card.ytcd-card-column {
+        margin: unset;
+    }
+    .column.ytcd-channel-dashboard {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    ytcd-card {
+        line-height: unset;
+    }
+    [test-id="channel-dashboard-recent-videos-card"] ul.remove-default-style.ytcd-list-card {
+        display: flex;
+        gap: 10px;
+    }
+    [test-id="channel-dashboard-recent-videos-card"] ytcd-list-card[modern] li.ytcd-list-card {
+        width: 100%;
+    }
+    ytcd-video-list-cell-video-light {
+        display: block;
+    }
+    .row.ytcd-video-list-cell-video-light {
+        flex-direction: column;
+        width: unset;
+        flex: unset;
+    }
+    .video-title.ytcd-video-list-cell-video-light {
+        white-space: unset;
+        line-height: unset;
+        text-overflow: unset;
+        overflow: unset;
+    }
+    .right-section.ytcd-video-list-cell-video-light {
+        margin: unset;
+        padding: unset;
+    }
+    [test-id="channel-dashboard-recent-videos-card"] ytcp-img-with-fallback[modern][rounded][size=small] #img-with-fallback.ytcp-img-with-fallback, ytcp-img-with-fallback[modern][rounded][size=small] .container.ytcp-img-with-fallback img {
+        width: 100%;
+    }
+    .video-thumbnail.ytcd-video-list-cell-video-light {
+        width: unset;
+        height: unset;
+    }
+    ytcp-img-with-fallback.ytcp-thumbnail {
+        position: unset;
+    }
+    #row-container.ytcd-video-list-cell-video-light {
+        padding: unset;
+    }
+    ytcd-recent-videos-item[modern] .action-button.ytcd-recent-videos-item {
+        padding: unset;
+    }
+    #row-container.ytcd-video-list-cell-video-light {
+        display: block;
+        width: unset;
+    }
+    [test-id="channel-dashboard-comment-card"] {
+        ul.remove-default-style.ytcd-list-card {
+            display: flex;
+            gap: 10px;
+            li {
+                width: 100%;
+                > hr {display: none;}
+                ytcd-comments-snapshot-item {
+                    display: unset;
+                    #all-content {
+                        flex-direction: column;
+                        > #body {
+                            flex-direction: column;
+                            flex: unset;
+                            > #content {
+                                width: unset;
+                                padding: unset;
+                                #comment-text-container {
+                                    margin: unset;
+                                    overflow: unset;
+                                    max-height: unset;
+                                    line-height: unset;
+                                    display: unset;
+                                }
+                                #header {
+                                    flex-direction: column;
+                                    align-items: unset;
+                                    #author-divider {display: none;}
+                                    #timestamp {
+                                        padding: unset;
+                                    }
+                                    #author-comment-badge {
+                                        overflow: unset;
+                                        height: unset;
+                                        margin: unset;
+                                        padding: unset;
+                                        #author-name {
+                                            text-overflow: unset;
+                                            white-space: unset;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            li:first-child,
+            li:nth-child(5),
+            ytcd-card-header-item,
+            ytcd-card-button-action-item
+                {display: none;}
+        }
+    }
+}
