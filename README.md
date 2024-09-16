@@ -5,7 +5,7 @@ Edits for websites, to improve your experience!
 > [!WARNING]
 > All modifications are purely visual! **This is not hacking!**
 >
-> This repository contains **NOTHING** that can automate anything on the websites or change their behavior! JavaScript and any other types of automations are NOT used in the browser. There are NO external connections used – except the usage of `npm install` for installing Node.js packages on the local machine, **which you don't have to do**.
+> This repository contains **NOTHING** that automates anything on the websites or changes their behavior! Even if this repository has some automations in general, they're NOT used in the browser. There are NO external connections used – except the usage of `npm install` for installing Node.js packages on the local machine, **which you don't have to do**.
 >
 > You **CAN'T** be banned or punished in any way for the change of appearance on your own computer, even if it's against the design guidelines established by web services. The web should remain open and any look should be tweaked, regardless of how anyone feels about it or what anyone thinks of it!
 
